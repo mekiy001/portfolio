@@ -16,3 +16,22 @@ li {
 h1 {
     margin-left: 20%;
 }
+
+section h1 {
+    margin-left: 20%;
+}
+
+main {
+    margin-top: 40px;
+}
+
+section {
+    display: flex;
+    margin: 0 20%;
+    justify-content: space-between;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
