@@ -11,6 +11,7 @@ nav {
 
 nav ul {
     list-style-type: none;
+    padding: 0;
 }
 
 nav input {
@@ -68,6 +69,40 @@ body {
 
 input:hover {
     background-color: darkgray;
+}
+
+p {
+    min-width: 225px;
+}
+
+@media only screen and (max-width: 800px) {
+    nav, nav h1, nav ul, input {
+        display: block;
+        text-align: center;
+    }
+
+    nav h1 {
+        margin: 0;
+    }
+
+    nav {
+        height: auto;
+    }
+
+    nav input {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section, p, img, div{
+        display: block;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 
