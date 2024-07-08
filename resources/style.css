@@ -75,6 +75,11 @@ p {
     min-width: 225px;
 }
 
+#jammming {
+    width: 236px;
+    height: auto;
+}
+
 @media only screen and (max-width: 800px) {
     nav, nav h1, nav ul, input {
         display: block;
@@ -92,6 +97,7 @@ p {
     nav input {
         margin: 0 auto;
     }
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -99,14 +105,8 @@ p {
         display: block;
     }
 
-    img {
+    img, #jammming {
         width: 100%;
         height: auto;
     }
 }
-
-
-
-
-
-
